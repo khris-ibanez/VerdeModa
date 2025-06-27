@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+#dos,
+#tres {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+button {
+  height: 48px;
+  padding: 8px 20px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #14b814;
+  color: white;
+}
+#dos {
+  height: 480px;
+  display: flex; /* para alinear el contenido */
+  flex-direction: column; /* para que el contenido se apile verticalmente */
+  justify-content: center; /* para centrar el contenido verticalmente */
+  align-items: center; /* para centrar el contenido horizontalmente */
+  width: 928px;
+  /* la linea de abajo solo sirve si se usa display flex */
+  /* align-self: stretch; */
+  /* para centrar sin usar flex usaré el margin */
+  margin: 20px auto 0;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(./assets/img/Imagen1B.jpg) lightgray 50% / cover no-repeat;
+  h1,
+  p {
+    color: #fff;
+    margin: 0 0 20px 0;
+  }
+  p {
+    color: #fff;
+    text-align: center;
+    font-feature-settings: "dlig" on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px; /* 125% */
+    letter-spacing: -2px;
+  }
+}
+
+#tres,
+.fotos {
+  margin: 0 auto;
+  width: 928px;
+}
+
+#tres {
+  margin-top: 20px;
+}
+
+.fotos {
+  display: flex; /* para alinear el contenido */
+  justify-content: center; /* para centrar el contenido verticalmente */
+  border-radius: 8px;
+  gap: 12px;
+}
+
+.fotos img {
+  /* flex: 0 1 auto;  */
+  max-width: calc((928px - 16px) / 3);
+  height: auto;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+
+  h2 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+  p {
+    color: #638763;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+  }
+}
+
+figcaption * {
+  margin: 0;
+  padding: 0;
+}
+figcaption {
+  margin-top: 16px;
+}
