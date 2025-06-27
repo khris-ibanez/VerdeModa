@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+header nav{
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 12px 40px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 1px solid #e5e8eb;
+}
+header nav .logoMarca{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+header nav .marca, .enlace{
+    color: #121712;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    
+}
+header nav .marca{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+}
+header nav .navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+header nav .navbar .enlaces{
+    display: flex; 
+    height: 40px;
+    align-items: center;
+    gap: 36px;
+    }
+header nav .navbar .enlaces .enlace{
+    align-self: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    text-decoration: none;
+    
+}
+
+header nav .navbar .iconos{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    width: 136px;
+    height: 40px ;
+}
+
+header nav .navbar .iconos figure{
+    display: flex;
+    height: 40px;
+    max-width: 480px;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #F0F5F0;    
+}
+
+header nav .navbar .iconos .icono{
+    width: 20px;
+    height: 20px;
+    fill: #121712;
+}
